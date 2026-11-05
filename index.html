@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Fardeen PP — Video Editor & Videographer, Calicut</title>
+<meta name="description" content="Fardeen PP is a video editor and videographer based in Calicut, Kerala. Reels, interviews, brand and event films, and photography.">
+<meta name="theme-color" content="#0a0a0a">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Fardeen PP — Video Editor & Videographer">
+<meta property="og:description" content="Reels, interviews, brand and event films from Calicut, Kerala.">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Instrument+Serif:ital@0;1&family=IBM+Plex+Mono:wght@400;500&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Person","name":"Fardeen PP","jobTitle":"Video Editor & Videographer",
+"email":"fardeenpp28@gmail.com","telephone":"+919074103176","address":{"@type":"PostalAddress","addressLocality":"Calicut","addressRegion":"Kerala","addressCountry":"IN"},
+"sameAs":["https://www.behance.net/fardeenpp"]}
+</script>
+</head>
+<body class="loading">
+<div class="loader" id="loader" role="status" aria-live="polite" aria-label="Loading portfolio">
+  <span class="vf-c tl"></span><span class="vf-c tr"></span><span class="vf-c bl"></span><span class="vf-c br"></span>
+  <div class="ld-top"><span>FARDEEN PP</span><span><b class="rec">●</b> LOADING REEL</span></div>
+  <div class="ld-mid"><b id="ldPct">0</b><span>%</span></div>
+  <div class="ld-bot"><span id="ldTc">00:00:00:00</span><span class="ld-bar"><i id="ldBar"></i></span></div>
+</div>
+<noscript><style>.loader{display:none!important}body.loading{overflow:auto!important}h1 .ln>span,.lede,.hero-actions,.hero-meta,.role{animation-play-state:running!important}</style></noscript>
+<canvas class="bg3d" id="hero3d" aria-hidden="true"></canvas>
+<div class="progress" id="progress"></div>
+<div class="cursor" id="cursor" aria-hidden="true"><span id="cursorLabel"></span></div>
+<a class="skip" href="#work">Skip to work</a>
+
+<header class="nav" id="nav">
+  <a href="#top" class="brand" aria-label="Fardeen PP — home">FARDEEN PP</a>
+  <nav class="nav-links" aria-label="Primary">
+    <a href="#work"><i>01</i> Work</a>
+    <a href="#photography"><i>02</i> Stills</a>
+    <a href="#about"><i>03</i> About</a>
+    <a href="#contact" class="nav-cta">Hire me</a>
+  </nav>
+  <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="menu"><span>Menu</span></button>
+</header>
+<div class="menu" id="menu" hidden>
+  <a href="#work"><i>01</i> Work</a>
+  <a href="#photography"><i>02</i> Stills</a>
+  <a href="#about"><i>03</i> About</a>
+  <a href="#contact"><i>04</i> Contact</a>
+  <p>fardeenpp28@gmail.com<br>+91 90741 03176</p>
+</div>
+
+<main id="top">
+  <!-- HERO — styled as a camera viewfinder -->
+  <section class="hero">
+    <div class="hero-reel" aria-hidden="true" id="heroReel"></div>
+    <div class="hero-shade"></div>
+
+    <div class="vf" aria-hidden="true">
+      <span class="vf-c tl"></span><span class="vf-c tr"></span><span class="vf-c bl"></span><span class="vf-c br"></span>
+      <div class="vf-top"><span><b class="rec">●</b> REC <time id="tc">00:00:00:00</time></span><span class="vf-r">50 FPS · 9:16 · 4K</span></div>
+    </div>
+
+    <div class="hero-inner">
+      <p class="role">Video editor <i>&amp;</i> videographer</p>
+      <h1 aria-label="Fardeen PP">
+        <span class="ln"><span>Fardeen</span></span>
+        <span class="ln"><span>PP<em>.</em></span></span>
+      </h1>
+      <p class="lede">Reels, interviews and event films, cut with care. Based in Calicut, Kerala.</p>
+      <div class="hero-actions">
+        <button class="btn btn-solid" data-play="red-bull-red-bull">▶ Play showreel</button>
+        <a class="btn" href="#work">View work ↓</a>
+      </div>
+      <p class="hero-meta"><span id="statVideos">30</span> edits online · 2 photo series · Premiere · After Effects · DaVinci</p>
+    </div>
+  </section>
+
+  <!-- BAND -->
+  <div class="band" aria-hidden="true">
+    <div class="band-track">
+      <span>Reels</span><span>Interviews</span><span>Brand films</span><span>Events</span><span>Photography</span><span>Colour</span>
+      <span>Reels</span><span>Interviews</span><span>Brand films</span><span>Events</span><span>Photography</span><span>Colour</span>
+    </div>
+  </div>
+
+  <!-- WORK -->
+  <section class="section" id="work">
+    <div class="wrap">
+      <header class="head">
+        <h2>Work</h2>
+        <p class="count"><span id="workCount">0</span> clips</p>
+      </header>
+      <div class="tabs" role="tablist" aria-label="Filter work" id="filters"></div>
+      <div class="grid" id="videoGrid"></div>
+    </div>
+  </section>
+
+  <!-- PHOTOGRAPHY -->
+  <section class="section alt" id="photography">
+    <div class="wrap">
+      <header class="head">
+        <h2>Stills</h2>
+        <p class="count"><span id="photoCount">0</span> frames</p>
+      </header>
+      <div class="tabs" id="photoFilters" role="tablist" aria-label="Photo series"></div>
+      <div class="masonry" id="photoGrid"></div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section" id="about">
+    <div class="wrap about">
+      <figure class="about-photo">
+        <img src="assets/fardeen-portrait.jpg" alt="Portrait of Fardeen PP" width="720" height="1080" loading="lazy">
+        <figcaption>Fardeen PP — Calicut</figcaption>
+      </figure>
+      <div class="about-copy">
+        <h2>About</h2>
+        <p class="pull">Detail-oriented, <i>story-first</i>. I look for the shot that makes a cut feel inevitable.</p>
+        <p>I'm a video editor and videographer with a keen eye for storytelling and design. I make visually compelling content and keep exploring new techniques so the work never feels dated. I also design posters and Instagram creatives, so the whole package matches.</p>
+
+        <h3>Credits</h3>
+        <dl class="credits">
+          <div><dt>Role</dt><dd>Freelance video editor &amp; graphic designer</dd></div>
+          <div><dt>Made</dt><dd>Social media videos, reels, posters, YouTube content, Instagram designs</dd></div>
+          <div><dt>Study</dt><dd>Diploma in Multimedia Design, Vismayam College of Art &amp; Media, Calicut (2025–26)</dd></div>
+          <div><dt>Also</dt><dd>B.Com Finance, MES College, Vadakara</dd></div>
+          <div><dt>Tools</dt><dd>Premiere Pro, After Effects, DaVinci Resolve, Photoshop, Illustrator, CorelDRAW, Blender, CapCut, VN</dd></div>
+          <div><dt>Speaks</dt><dd>Malayalam, English</dd></div>
+        </dl>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section contact" id="contact">
+    <div class="wrap">
+      <h2 class="big">Have a project?<br><i>Let's talk.</i></h2>
+      <ul class="links">
+        <li><a href="https://wa.me/919074103176?text=Hi%20Fardeen%2C%20I%20saw%20your%20portfolio%20and%20would%20like%20to%20work%20together." target="_blank" rel="noopener"><span>WhatsApp</span><b>Message me →</b></a></li>
+        <li><a href="mailto:fardeenpp28@gmail.com"><span>Email</span><b>fardeenpp28@gmail.com</b></a></li>
+        <li><a href="tel:+919074103176"><span>Phone</span><b>+91 90741 03176</b></a></li>
+        <li><a href="https://www.behance.net/fardeenpp" target="_blank" rel="noopener"><span>Behance</span><b>behance.net/fardeenpp ↗</b></a></li>
+      </ul>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="wrap">
+    <span>© <span id="yr">2026</span> Fardeen PP</span>
+    <span>Calicut, Kerala</span>
+    <a href="#top">Top ↑</a>
+  </div>
+</footer>
+
+<!-- LIGHTBOX -->
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Media viewer" hidden>
+  <button class="lb-close" aria-label="Close">Close ✕</button>
+  <button class="lb-nav prev" aria-label="Previous">←</button>
+  <button class="lb-nav next" aria-label="Next">→</button>
+  <div class="lb-stage" id="lbStage"></div>
+  <p class="lb-caption" id="lbCaption"></p>
+</div>
+
+<script src="js/data.js"></script>
+<script src="js/main.js"></script>
+<script type="module" src="js/hero3d.js"></script>
+<script>setTimeout(function(){var l=document.getElementById("loader");if(l&&document.body.classList.contains("loading")){document.body.classList.remove("loading");document.body.classList.add("ready");l.style.display="none"}},12000)</script>
+</body>
+</html>
