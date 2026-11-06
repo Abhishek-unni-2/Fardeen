@@ -12,14 +12,14 @@ ALBUMS = {"ATHIRADI": "Athiradi", "VEDAN": "Vedan"}
 
 # id -> (title, category). Anything missing is auto-titled from the filename.
 TITLES = {
-    "red-bull-red-bull": ("Red Bull — Showreel", "film"),
+    "red-bull-red-bull": ("Red Bull showreel", "film"),
     "desgro-ann-final": ("Story Telling Session", "desgro"),
     "desgro-aflu": ("Why Stories Matter", "desgro"),
     "desgro-chanakya-out": ("Finance Professionals", "desgro"),
     "desgro-burger-dude-re": ("The Burger Dude", "desgro"),
     "desgro-a-02": ("The Importance of Portfolio", "desgro"),
     "desgro-final-out": ("Professional Cutting", "desgro"),
-    "desgro-dspace-out": ("D-Space", "desgro"),
+    "desgro-dspace-out": ("DSpace", "desgro"),
     "desgro-games-out": ("Games Night", "desgro"),
     "desgro-imposter": ("Imposter", "desgro"),
     "desgro-comp-01": ("Comp 01", "desgro"),
@@ -30,7 +30,7 @@ TITLES = {
     "desgro-out": ("Reel Edit 04", "desgro"), "desgro-re-01": ("Reel Edit 01", "desgro"),
     "desgro-re-02": ("Reel Edit 02", "desgro"), "desgro-re-02-2": ("Reel Edit 03", "desgro"),
     "desgro-comp-02-2": ("Comp 03", "desgro"), "desgro-img-0370": ("Raw Footage Cut", "desgro"),
-    "desgro-vertex": ("Vertex — Cut 1", "desgro"), "desgro-vertex-re-03": ("Vertex — Cut 2", "desgro"),
+    "desgro-vertex": ("Vertex cut 1", "desgro"), "desgro-vertex-re-03": ("Vertex cut 2", "desgro"),
     "fast-cuts-0": ("Fast Cut 01", "fast"), "fast-cuts-1": ("Fast Cut 02", "fast"),
     "fast-cuts-2": ("Fast Cut 03", "fast"), "fast-cuts-11278": ("Fast Cut 04", "fast"),
 }

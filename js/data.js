@@ -2,7 +2,7 @@ window.PORTFOLIO = {
  "videos": [
   {
    "id": "red-bull-red-bull",
-   "title": "Red Bull \u2014 Showreel",
+   "title": "Red Bull showreel",
    "cat": "film",
    "w": 720,
    "h": 1280,
@@ -98,7 +98,7 @@ window.PORTFOLIO = {
   },
   {
    "id": "desgro-dspace-out",
-   "title": "D-Space",
+   "title": "DSpace",
    "cat": "desgro",
    "w": 720,
    "h": 1280,
@@ -202,7 +202,7 @@ window.PORTFOLIO = {
   },
   {
    "id": "desgro-vertex",
-   "title": "Vertex \u2014 Cut 1",
+   "title": "Vertex cut 1",
    "cat": "desgro",
    "w": 720,
    "h": 1280,
@@ -210,7 +210,7 @@ window.PORTFOLIO = {
   },
   {
    "id": "desgro-vertex-re-03",
-   "title": "Vertex \u2014 Cut 2",
+   "title": "Vertex cut 2",
    "cat": "desgro",
    "w": 720,
    "h": 1280,

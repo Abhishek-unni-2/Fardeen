@@ -3,166 +3,250 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Fardeen PP — Video Editor & Videographer, Calicut</title>
-<meta name="description" content="Fardeen PP is a video editor and videographer based in Calicut, Kerala. Reels, interviews, brand and event films, and photography.">
-<meta name="theme-color" content="#0a0a0a">
+<title>Fardeen PP | Video editor and videographer in Calicut</title>
+<meta name="description" content="Fardeen PP shoots and edits reels, interviews and event films for brands, creators and institutions in Calicut, Kerala. See the work and message him on WhatsApp.">
+<meta name="theme-color" content="#000000">
+<link rel="canonical" href="https://fardeen-rose.vercel.app/">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Fardeen PP — Video Editor & Videographer">
-<meta property="og:description" content="Reels, interviews, brand and event films from Calicut, Kerala.">
+<meta property="og:title" content="Fardeen PP | Video editor and videographer in Calicut">
+<meta property="og:description" content="Reels, interviews and event films from Calicut, Kerala. See the work and message Fardeen on WhatsApp.">
+<meta property="og:image" content="https://fardeen-rose.vercel.app/assets/og.jpg">
+<meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Anton&family=Instrument+Serif:ital@0;1&family=IBM+Plex+Mono:wght@400;500&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"Person","name":"Fardeen PP","jobTitle":"Video Editor & Videographer",
-"email":"fardeenpp28@gmail.com","telephone":"+919074103176","address":{"@type":"PostalAddress","addressLocality":"Calicut","addressRegion":"Kerala","addressCountry":"IN"},
-"sameAs":["https://www.behance.net/fardeenpp"]}
+{"@context":"https://schema.org","@graph":[
+{"@type":"Person","name":"Fardeen PP","jobTitle":"Video editor and videographer","email":"fardeenpp28@gmail.com","telephone":"+919074103176","address":{"@type":"PostalAddress","addressLocality":"Calicut","addressRegion":"Kerala","addressCountry":"IN"},"sameAs":["https://www.behance.net/fardeenpp"]},
+{"@type":"FAQPage","mainEntity":[
+{"@type":"Question","name":"What kind of videos does Fardeen make?","acceptedAnswer":{"@type":"Answer","text":"Instagram reels, interviews, event films, social media videos and YouTube content."}},
+{"@type":"Question","name":"Does he shoot as well as edit?","acceptedAnswer":{"@type":"Answer","text":"Yes. Fardeen works as a videographer and a video editor, and can also edit footage you already have."}},
+{"@type":"Question","name":"Where is he based?","acceptedAnswer":{"@type":"Answer","text":"Calicut, Kerala, India."}}
+]}]}
 </script>
 </head>
 <body class="loading">
 <div class="loader" id="loader" role="status" aria-live="polite" aria-label="Loading portfolio">
-  <span class="vf-c tl"></span><span class="vf-c tr"></span><span class="vf-c bl"></span><span class="vf-c br"></span>
-  <div class="ld-top"><span>FARDEEN PP</span><span><b class="rec">●</b> LOADING REEL</span></div>
+  <div class="ld-top caption-2"><span>Fardeen PP</span><span class="mono"><i class="rec"></i> Loading reel</span></div>
   <div class="ld-mid"><b id="ldPct">0</b><span>%</span></div>
-  <div class="ld-bot"><span id="ldTc">00:00:00:00</span><span class="ld-bar"><i id="ldBar"></i></span></div>
+  <div class="ld-bot caption-2"><span class="mono" id="ldTc">00:00:00:00</span><span class="ld-bar"><i id="ldBar"></i></span></div>
 </div>
-<noscript><style>.loader{display:none!important}body.loading{overflow:auto!important}h1 .ln>span,.lede,.hero-actions,.hero-meta,.role{animation-play-state:running!important}</style></noscript>
+<noscript><style>.loader{display:none!important}body.loading{overflow:auto!important}.hero .ln>span,.hero-fade{animation-play-state:running!important}.reveal{opacity:1!important;transform:none!important}.tag-word{opacity:1!important}</style></noscript>
+
 <canvas class="bg3d" id="hero3d" aria-hidden="true"></canvas>
 <div class="progress" id="progress"></div>
-<div class="cursor" id="cursor" aria-hidden="true"><span id="cursorLabel"></span></div>
-<a class="skip" href="#work">Skip to work</a>
+<a class="skip button-sm" href="#work">Skip to content</a>
 
-<header class="nav" id="nav">
-  <a href="#top" class="brand" aria-label="Fardeen PP — home">FARDEEN PP</a>
-  <nav class="nav-links" aria-label="Primary">
-    <a href="#work"><i>01</i> Work</a>
-    <a href="#photography"><i>02</i> Stills</a>
-    <a href="#about"><i>03</i> About</a>
-    <a href="#contact" class="nav-cta">Hire me</a>
+<!-- NAV: floating, centred, translucent -->
+<header class="nav-wrap">
+  <nav class="nav" id="nav" aria-label="Primary">
+    <a href="#top" class="brand title-4">Fardeen PP</a>
+    <ul class="nav-links">
+      <li><a class="title-4" href="#work">Work</a></li>
+      <li><a class="title-4" href="#photography">Photography</a></li>
+      <li><a class="title-4" href="#about">About</a></li>
+      <li><a class="title-4" href="#faq">FAQ</a></li>
+    </ul>
+    <a class="btn btn-primary button-sm nav-cta" href="https://wa.me/919074103176?text=Hi%20Fardeen%2C%20I%20saw%20your%20portfolio%20and%20would%20like%20to%20talk%20about%20a%20project." target="_blank" rel="noopener">
+      <svg class="ic" aria-hidden="true"><use href="assets/icons.svg#i-whatsapp-logo"/></svg>Message me</a>
+    <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="menu" aria-label="Open menu"><i></i><i></i></button>
   </nav>
-  <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="menu"><span>Menu</span></button>
 </header>
-<div class="menu" id="menu" hidden>
-  <a href="#work"><i>01</i> Work</a>
-  <a href="#photography"><i>02</i> Stills</a>
-  <a href="#about"><i>03</i> About</a>
-  <a href="#contact"><i>04</i> Contact</a>
-  <p>fardeenpp28@gmail.com<br>+91 90741 03176</p>
+<div class="menu" id="menu" aria-hidden="true">
+  <ul>
+    <li style="--i:0"><a class="heading-3" href="#work">Work</a></li>
+    <li style="--i:1"><a class="heading-3" href="#photography">Photography</a></li>
+    <li style="--i:2"><a class="heading-3" href="#about">About</a></li>
+    <li style="--i:3"><a class="heading-3" href="#faq">FAQ</a></li>
+    <li style="--i:4"><a class="heading-3" href="#contact">Contact</a></li>
+  </ul>
 </div>
 
-<main id="top">
-  <!-- HERO — styled as a camera viewfinder -->
-  <section class="hero">
+<main id="main">
+  <!-- 1. HERO -->
+  <section class="hero" id="top">
     <div class="hero-reel" aria-hidden="true" id="heroReel"></div>
     <div class="hero-shade"></div>
-
-    <div class="vf" aria-hidden="true">
+    <div class="vf mono caption-4" aria-hidden="true">
       <span class="vf-c tl"></span><span class="vf-c tr"></span><span class="vf-c bl"></span><span class="vf-c br"></span>
-      <div class="vf-top"><span><b class="rec">●</b> REC <time id="tc">00:00:00:00</time></span><span class="vf-r">50 FPS · 9:16 · 4K</span></div>
+      <div class="vf-top"><span><i class="rec"></i> REC <time id="tc">00:00:00:00</time></span><span class="vf-r">50 fps · 9:16 · 4K</span></div>
     </div>
-
     <div class="hero-inner">
-      <p class="role">Video editor <i>&amp;</i> videographer</p>
-      <h1 aria-label="Fardeen PP">
-        <span class="ln"><span>Fardeen</span></span>
-        <span class="ln"><span>PP<em>.</em></span></span>
+      <p class="caption-1 hero-fade eyebrow">Video editor and videographer in Calicut</p>
+      <h1 class="heading-1" aria-label="Reels and films that hold attention to the last second">
+        <span class="ln"><span>Reels and films</span></span>
+        <span class="ln"><span>that hold attention</span></span>
+        <span class="ln"><span>to the last second</span></span>
       </h1>
-      <p class="lede">Reels, interviews and event films, cut with care. Based in Calicut, Kerala.</p>
-      <div class="hero-actions">
-        <button class="btn btn-solid" data-play="red-bull-red-bull">▶ Play showreel</button>
-        <a class="btn" href="#work">View work ↓</a>
+      <p class="body-3 hero-sub hero-fade">Fardeen PP shoots and edits reels, interviews and event films for brands, creators and institutions across Kerala.</p>
+      <div class="hero-actions hero-fade">
+        <a class="btn btn-primary button-md" href="https://wa.me/919074103176?text=Hi%20Fardeen%2C%20I%20saw%20your%20portfolio%20and%20would%20like%20to%20talk%20about%20a%20project." target="_blank" rel="noopener">
+          <svg class="ic" aria-hidden="true"><use href="assets/icons.svg#i-whatsapp-logo"/></svg>Message on WhatsApp</a>
+        <button class="btn btn-ghost button-md" data-play="red-bull-red-bull">
+          <svg class="ic" aria-hidden="true"><use href="assets/icons.svg#i-play"/></svg>Watch the showreel</button>
       </div>
-      <p class="hero-meta"><span id="statVideos">30</span> edits online · 2 photo series · Premiere · After Effects · DaVinci</p>
+      <p class="caption-2 hero-proof hero-fade"><span id="statVideos">31</span> edits online · <span id="statPhotos">35</span> photographs · Premiere Pro, After Effects, DaVinci Resolve</p>
     </div>
   </section>
 
-  <!-- BAND -->
-  <div class="band" aria-hidden="true">
-    <div class="band-track">
-      <span>Reels</span><span>Interviews</span><span>Brand films</span><span>Events</span><span>Photography</span><span>Colour</span>
-      <span>Reels</span><span>Interviews</span><span>Brand films</span><span>Events</span><span>Photography</span><span>Colour</span>
-    </div>
-  </div>
-
-  <!-- WORK -->
-  <section class="section" id="work">
+  <!-- 2. TAGLINE REVEAL -->
+  <section class="section tagline" id="tagline" aria-label="Approach">
     <div class="wrap">
-      <header class="head">
-        <h2>Work</h2>
-        <p class="count"><span id="workCount">0</span> clips</p>
+      <p class="heading-2 tag" id="tagText">Every cut has a reason. Every frame earns its place on screen, so your audience stays until the very last second.</p>
+    </div>
+  </section>
+
+  <!-- 3. WORK -->
+  <section class="section" id="work" aria-labelledby="workTitle">
+    <div class="wrap">
+      <header class="head reveal">
+        <div>
+          <h2 class="heading-2" id="workTitle">Selected work</h2>
+          <p class="body-3 sub">Hover a clip to preview it. Select it to watch with sound.</p>
+        </div>
+        <p class="caption-1 count"><span id="workCount">0</span> clips</p>
       </header>
-      <div class="tabs" role="tablist" aria-label="Filter work" id="filters"></div>
+      <div class="tabs" role="group" aria-label="Filter work" id="filters"></div>
       <div class="grid" id="videoGrid"></div>
     </div>
   </section>
 
-  <!-- PHOTOGRAPHY -->
-  <section class="section alt" id="photography">
+  <!-- 4. BENEFITS -->
+  <section class="section alt" id="benefits" aria-labelledby="benTitle">
     <div class="wrap">
-      <header class="head">
-        <h2>Stills</h2>
-        <p class="count"><span id="photoCount">0</span> frames</p>
+      <header class="head reveal"><div>
+        <h2 class="heading-2" id="benTitle">What you get</h2>
+        <p class="body-3 sub">One person from the first shot to the final export.</p>
+      </div></header>
+      <ul class="cards4">
+        <li class="card-info reveal">
+          <svg class="ic ic-lg" aria-hidden="true"><use href="assets/icons.svg#i-device-mobile"/></svg>
+          <h3 class="title-2">Reels made for the scroll</h3>
+          <p class="body-6">Vertical edits with pacing, captions and sound built for Instagram, where the first seconds decide whether people stay.</p>
+        </li>
+        <li class="card-info reveal">
+          <svg class="ic ic-lg" aria-hidden="true"><use href="assets/icons.svg#i-camera"/></svg>
+          <h3 class="title-2">Shot and cut by one person</h3>
+          <p class="body-6">Fardeen films the footage and edits it himself, so the idea stays consistent from planning to delivery.</p>
+        </li>
+        <li class="card-info reveal">
+          <svg class="ic ic-lg" aria-hidden="true"><use href="assets/icons.svg#i-paint-brush-broad"/></svg>
+          <h3 class="title-2">Design that matches the video</h3>
+          <p class="body-6">Posters, thumbnails and Instagram creatives made alongside the edit, so the whole campaign looks like one piece.</p>
+        </li>
+        <li class="card-info reveal">
+          <svg class="ic ic-lg" aria-hidden="true"><use href="assets/icons.svg#i-film-slate"/></svg>
+          <h3 class="title-2">A finished look</h3>
+          <p class="body-6">Colour grading in DaVinci Resolve and motion graphics in After Effects give each project a polished, professional feel.</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- 5. HOW IT WORKS -->
+  <section class="section" id="process" aria-labelledby="procTitle">
+    <div class="wrap">
+      <header class="head reveal"><div>
+        <h2 class="heading-2" id="procTitle">How it works</h2>
+        <p class="body-3 sub">Three steps from message to final video.</p>
+      </div></header>
+      <ol class="steps">
+        <li class="card-info reveal"><span class="step-no mono caption-3">01</span><h3 class="title-2">Send the brief</h3><p class="body-6">Message Fardeen on WhatsApp with what you need, a few references and where the video will be posted.</p></li>
+        <li class="card-info reveal"><span class="step-no mono caption-3">02</span><h3 class="title-2">Shoot and edit</h3><p class="body-6">He plans the shots, films where needed and cuts the footage into a first version for you to review.</p></li>
+        <li class="card-info reveal"><span class="step-no mono caption-3">03</span><h3 class="title-2">Review and deliver</h3><p class="body-6">You share feedback on the cut, and the final video is exported in the format your platform needs.</p></li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- 6. PHOTOGRAPHY -->
+  <section class="section alt" id="photography" aria-labelledby="photoTitle">
+    <div class="wrap">
+      <header class="head reveal">
+        <div>
+          <h2 class="heading-2" id="photoTitle">Photography</h2>
+          <p class="body-3 sub">Stills from concerts and live shoots.</p>
+        </div>
+        <p class="caption-1 count"><span id="photoCount">0</span> photographs</p>
       </header>
-      <div class="tabs" id="photoFilters" role="tablist" aria-label="Photo series"></div>
+      <div class="tabs" id="photoFilters" role="group" aria-label="Photo series"></div>
       <div class="masonry" id="photoGrid"></div>
     </div>
   </section>
 
-  <!-- ABOUT -->
-  <section class="section" id="about">
+  <!-- 7. ABOUT -->
+  <section class="section" id="about" aria-labelledby="aboutTitle">
     <div class="wrap about">
-      <figure class="about-photo">
+      <figure class="about-photo reveal">
         <img src="assets/fardeen-portrait.jpg" alt="Portrait of Fardeen PP" width="720" height="1080" loading="lazy">
-        <figcaption>Fardeen PP — Calicut</figcaption>
       </figure>
       <div class="about-copy">
-        <h2>About</h2>
-        <p class="pull">Detail-oriented, <i>story-first</i>. I look for the shot that makes a cut feel inevitable.</p>
-        <p>I'm a video editor and videographer with a keen eye for storytelling and design. I make visually compelling content and keep exploring new techniques so the work never feels dated. I also design posters and Instagram creatives, so the whole package matches.</p>
-
-        <h3>Credits</h3>
-        <dl class="credits">
-          <div><dt>Role</dt><dd>Freelance video editor &amp; graphic designer</dd></div>
-          <div><dt>Made</dt><dd>Social media videos, reels, posters, YouTube content, Instagram designs</dd></div>
-          <div><dt>Study</dt><dd>Diploma in Multimedia Design, Vismayam College of Art &amp; Media, Calicut (2025–26)</dd></div>
-          <div><dt>Also</dt><dd>B.Com Finance, MES College, Vadakara</dd></div>
-          <div><dt>Tools</dt><dd>Premiere Pro, After Effects, DaVinci Resolve, Photoshop, Illustrator, CorelDRAW, Blender, CapCut, VN</dd></div>
-          <div><dt>Speaks</dt><dd>Malayalam, English</dd></div>
+        <h2 class="heading-2 reveal" id="aboutTitle">About Fardeen</h2>
+        <p class="body-3 reveal">Fardeen PP is a video editor and videographer based in Calicut. He has a keen eye for storytelling and design, and keeps exploring new techniques so every project feels current.</p>
+        <p class="body-3 reveal">He studied Multimedia Design at Vismayam College of Art and Media and holds a B.Com in Finance from MES College, Vadakara.</p>
+        <dl class="facts">
+          <div class="fact reveal"><dt class="caption-3">Role</dt><dd class="body-5">Freelance video editor and graphic designer</dd></div>
+          <div class="fact reveal"><dt class="caption-3">Makes</dt><dd class="body-5">Reels, social media videos, YouTube content, posters and Instagram designs</dd></div>
+          <div class="fact reveal"><dt class="caption-3">Studies</dt><dd class="body-5">Diploma in Multimedia Design, 2025 to 2026</dd></div>
+          <div class="fact reveal"><dt class="caption-3">Languages</dt><dd class="body-5">Malayalam and English</dd></div>
+          <div class="fact reveal"><dt class="caption-3">Tools</dt><dd class="body-5">Premiere Pro, After Effects, DaVinci Resolve, Photoshop, Illustrator, CorelDRAW, Blender, CapCut, VN</dd></div>
         </dl>
       </div>
     </div>
   </section>
 
-  <!-- CONTACT -->
-  <section class="section contact" id="contact">
-    <div class="wrap">
-      <h2 class="big">Have a project?<br><i>Let's talk.</i></h2>
+  <!-- 8. FAQ -->
+  <section class="section alt" id="faq" aria-labelledby="faqTitle">
+    <div class="wrap narrow">
+      <header class="head reveal"><div>
+        <h2 class="heading-2" id="faqTitle">Questions and answers</h2>
+        <p class="body-3 sub">Quick answers before you get in touch.</p>
+      </div></header>
+      <div class="faq">
+        <details class="reveal"><summary class="title-2">What kind of videos does Fardeen make?<svg class="ic" aria-hidden="true"><use href="assets/icons.svg#i-plus"/></svg></summary><p class="body-3">Instagram reels, interviews, event films, social media videos and YouTube content.</p></details>
+        <details class="reveal"><summary class="title-2">Does he shoot as well as edit?<svg class="ic" aria-hidden="true"><use href="assets/icons.svg#i-plus"/></svg></summary><p class="body-3">Yes. Fardeen works as a videographer and a video editor. He can also edit footage you already have.</p></details>
+        <details class="reveal"><summary class="title-2">Can he design posters and thumbnails?<svg class="ic" aria-hidden="true"><use href="assets/icons.svg#i-plus"/></svg></summary><p class="body-3">Yes. He designs posters, thumbnails and Instagram creatives with Photoshop, Illustrator and CorelDRAW, so they match the video.</p></details>
+        <details class="reveal"><summary class="title-2">Which software does he use?<svg class="ic" aria-hidden="true"><use href="assets/icons.svg#i-plus"/></svg></summary><p class="body-3">Premiere Pro, After Effects and DaVinci Resolve for editing, grading and motion. CapCut and VN for quick social edits, and Blender for 3D.</p></details>
+        <details class="reveal"><summary class="title-2">Where is he based?<svg class="ic" aria-hidden="true"><use href="assets/icons.svg#i-plus"/></svg></summary><p class="body-3">Calicut, Kerala. Message him with the location and date if you need a shoot elsewhere.</p></details>
+        <details class="reveal"><summary class="title-2">Which languages does he work in?<svg class="ic" aria-hidden="true"><use href="assets/icons.svg#i-plus"/></svg></summary><p class="body-3">Malayalam and English.</p></details>
+        <details class="reveal"><summary class="title-2">How do I start a project and get a price?<svg class="ic" aria-hidden="true"><use href="assets/icons.svg#i-plus"/></svg></summary><p class="body-3">Send a message on WhatsApp with what you need, the length of the video and where it will be posted. Pricing depends on the type and length of the project, so ask for a quote in the same message.</p></details>
+      </div>
+    </div>
+  </section>
+
+  <!-- 9. FINAL CTA -->
+  <section class="section contact" id="contact" aria-labelledby="contactTitle">
+    <div class="wrap narrow center">
+      <h2 class="heading-2 reveal" id="contactTitle">Have a project in mind?</h2>
+      <p class="body-3 sub reveal">Send Fardeen a message with what you need and where the video will be posted.</p>
+      <div class="hero-actions reveal center-actions">
+        <a class="btn btn-primary button-md" href="https://wa.me/919074103176?text=Hi%20Fardeen%2C%20I%20saw%20your%20portfolio%20and%20would%20like%20to%20talk%20about%20a%20project." target="_blank" rel="noopener">
+          <svg class="ic" aria-hidden="true"><use href="assets/icons.svg#i-whatsapp-logo"/></svg>Message on WhatsApp</a>
+      </div>
       <ul class="links">
-        <li><a href="https://wa.me/919074103176?text=Hi%20Fardeen%2C%20I%20saw%20your%20portfolio%20and%20would%20like%20to%20work%20together." target="_blank" rel="noopener"><span>WhatsApp</span><b>Message me →</b></a></li>
-        <li><a href="mailto:fardeenpp28@gmail.com"><span>Email</span><b>fardeenpp28@gmail.com</b></a></li>
-        <li><a href="tel:+919074103176"><span>Phone</span><b>+91 90741 03176</b></a></li>
-        <li><a href="https://www.behance.net/fardeenpp" target="_blank" rel="noopener"><span>Behance</span><b>behance.net/fardeenpp ↗</b></a></li>
+        <li class="reveal"><a href="mailto:fardeenpp28@gmail.com"><svg class="ic" aria-hidden="true"><use href="assets/icons.svg#i-envelope-simple"/></svg><span><small class="caption-3">Email</small><b class="title-3">fardeenpp28@gmail.com</b></span></a></li>
+        <li class="reveal"><a href="tel:+919074103176"><svg class="ic" aria-hidden="true"><use href="assets/icons.svg#i-phone"/></svg><span><small class="caption-3">Phone</small><b class="title-3">+91 90741 03176</b></span></a></li>
+        <li class="reveal"><a href="https://www.behance.net/fardeenpp" target="_blank" rel="noopener"><svg class="ic" aria-hidden="true"><use href="assets/icons.svg#i-behance-logo"/></svg><span><small class="caption-3">Behance</small><b class="title-3">behance.net/fardeenpp</b></span></a></li>
       </ul>
     </div>
   </section>
 </main>
 
-<footer class="footer">
+<footer class="footer caption-2">
   <div class="wrap">
-    <span>© <span id="yr">2026</span> Fardeen PP</span>
-    <span>Calicut, Kerala</span>
-    <a href="#top">Top ↑</a>
+    <span>© <span id="yr">2026</span> Fardeen PP · Calicut, Kerala</span>
+    <nav aria-label="Legal"><a href="privacy.html">Privacy policy</a><a href="terms.html">Terms</a><a href="#top">Back to top</a></nav>
   </div>
 </footer>
 
 <!-- LIGHTBOX -->
 <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Media viewer" hidden>
-  <button class="lb-close" aria-label="Close">Close ✕</button>
-  <button class="lb-nav prev" aria-label="Previous">←</button>
-  <button class="lb-nav next" aria-label="Next">→</button>
+  <button class="icon-btn lb-close" aria-label="Close viewer"><svg class="ic" aria-hidden="true"><use href="assets/icons.svg#i-x"/></svg></button>
+  <button class="icon-btn lb-nav prev" aria-label="Previous"><svg class="ic" aria-hidden="true"><use href="assets/icons.svg#i-arrow-left"/></svg></button>
+  <button class="icon-btn lb-nav next" aria-label="Next"><svg class="ic" aria-hidden="true"><use href="assets/icons.svg#i-arrow-right"/></svg></button>
   <div class="lb-stage" id="lbStage"></div>
-  <p class="lb-caption" id="lbCaption"></p>
+  <p class="lb-caption caption-2" id="lbCaption"></p>
 </div>
 
 <script src="js/data.js"></script>
